@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#F3FB03">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COUNTER APP "
+        android:textColor="#0235ED"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10sp"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="COUNTER"
+        android:background="#FFFFFF"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:layout_marginBottom="40sp"
+        android:layout_marginTop="70sp"
+        android:id="@+id/count"
+        android:textStyle="bold"
+        android:textColor="#26FF00"
+        android:layout_marginLeft="70sp"
+        android:layout_marginRight="70sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:onClick="start"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginBottom="10sp"
+        android:layout_marginTop="20sp"
+        android:id="@+id/start"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:onClick="stop"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginBottom="10sp"
+        android:layout_marginTop="10sp"
+        android:id="@+id/stop"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:onClick="reset"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="10sp"
+        android:id="@+id/reset"
+        />
+
+
+</LinearLayout>

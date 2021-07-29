@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textAlignment="center"
+        android:textColor="#78CDF3"
+        android:textSize="24dp"
+        android:id="@+id/tv1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Me..!!"
+        android:textSize="30dp"
+        android:textColor="#E4F35D"
+        android:id="@+id/btn1"
+        android:background="#9FF8B3"
+        android:onClick="display1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Me Too..!!"
+        android:textSize="27dp"
+        android:textColor="#FF77E8"
+        android:background="#CBEFEF"
+        android:onClick="display2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="display here"
+        android:textColor="#F4001D"
+        android:id="@+id/tv2"
+        android:textSize="26dp"
+        android:textAlignment="center"
+        />
+</LinearLayout>
